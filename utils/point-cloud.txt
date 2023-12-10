@@ -1,2 +1,4 @@
-虽然不同模态图像的灰度分布不同，但是其存在一定的刚体结构-骨骼，通过设置阈值范围可以提取CT,MRI图像的骨骼点云
-对点云进行ICP配准即可实现对三维多模态图像的刚性配准。
+Although the grayscale distribution of different modal images is different, there is a certain rigid structure - bones.
+By setting the threshold range, the bone point clouds of CT and MRI images can be extracted.
+Performing ICP registration on point clouds can achieve rigid registration of three-dimensional multi-modal images.
+In this process, we adopt point cloud downsampling to achieve coarse registration.
